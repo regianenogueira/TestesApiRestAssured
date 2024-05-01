@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/events"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "id": 1,
+        "nome": "Concerto de Rock",
+        "local": "Estádio das Águias",
+        "data": "2023-07-15T20:00:00Z",
+        "preco": 120.00
+      },
+      {
+        "id": 2,
+        "nome": "Festival de Jazz",
+        "local": "Parque Central",
+        "data": "2023-08-22T18:00:00Z",
+        "preco": 95.50
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
