@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/events/1/updates"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "hora": "2023-07-15T18:00:00Z",
+        "mensagem": "Os portões serão abertos às 19h."
+      },
+      {
+        "hora": "2023-07-15T19:30:00Z",
+        "mensagem": "A banda XYZ acabou de fazer o soundcheck."
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

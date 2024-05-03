@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/events/1"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "id": 1,
+      "nome": "Concerto de Rock",
+      "descricao": "O maior evento de rock do ano com bandas internacionais.",
+      "local": "Estádio das Águias",
+      "data": "2023-07-15T20:00:00Z",
+      "preco": 120.00,
+      "ingressos_disponiveis": 5000
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
