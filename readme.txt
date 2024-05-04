@@ -1,5 +1,5 @@
 1 - CONSTRUIR A IMAGEM DOCKER
-docker build -t meu-wiremock .
+sudo docker build -t meu-wiremock .
 
 2 - RODAR O WIREMOCK COMO UM CONTÊINER DOCKER
 docker run -d -p 8080:8080 meu-wiremock
